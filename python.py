@@ -1,5 +1,5 @@
-s1="sujil is coding   "
-s1=s1.rstrip()
+s1="   sujil      is coding   "
+s1=s1.strip()
 a=list(s1)
 print(a)
 for i in range(len(a)-1,0,-1):
